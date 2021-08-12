@@ -31,11 +31,6 @@ namespace Cookies_and_cream.Controllers
                         return "Item removed from Cart";
                     }
                 }
-                //Check if we are at the end of the loop
-                else if (i == cart.Count - 1)
-                {
-                    return "Item not found";
-                }
             }
             return "Item not found";
         }
